@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bienvenidos al Futuro de PY</title>
+  <style>
+    /* Estilos CSS para personalizar la apariencia de la página */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #ff6600;
+      font-size: 24px;
+    }
+    
+    .whatsapp-link {
+      display: none;
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: #ff6600;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+  </style>
+  <script>
+    // JavaScript para mostrar el enlace de WhatsApp después de un tiempo
+    window.onload = function() {
+      setTimeout(function() {
+        document.getElementById("whatsapp-link").style.display = "inline-block";
+      }, 3000); // Cambia este valor (en milisegundos) para ajustar el tiempo de desvanecimiento
+    }
+  </script>
+</head>
+<body>
+  <h1>Bienvenidos al Futuro de PY</h1>
+  <a id="whatsapp-link" class="whatsapp-link" href="https://wa.me/595975982350">Contactar por WhatsApp</a>
+</body>
+</html>
